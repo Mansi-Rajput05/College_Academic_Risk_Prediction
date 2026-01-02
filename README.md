@@ -1,5 +1,8 @@
 #  College Academic Risk Prediction System
 
+## Live Demo
+https://college-academic-risk-prediction.streamlit.app/
+
 ## Overview
 The College Academic Risk Prediction System is an end-to-end machine learning project that predicts a college student’s final academic score and classifies their academic risk level (At Risk, Average, or Top Performer). The project demonstrates the complete machine learning lifecycle, from data preprocessing and exploratory analysis to model deployment using a Streamlit web application.
 
@@ -65,4 +68,5 @@ Future enhancements include SHAP-based explainability, database integration, aut
 Mansi Rajput  
 
 Machine Learning and Data Science Enthusiast
+
 
