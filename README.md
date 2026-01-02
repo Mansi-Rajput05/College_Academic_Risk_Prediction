@@ -10,6 +10,7 @@ Early identification of academically at-risk students allows educational institu
 The project follows a structured machine learning workflow that includes data cleaning and preprocessing, exploratory data analysis, feature engineering, model training and evaluation, hyperparameter tuning using GridSearchCV, model explainability, and deployment using Streamlit.
 
 ## Project Structure
+```
 College_Academic_Risk_Prediction/
 ├── notebooks/
 │ ├── 01_Data_Loading_and_Cleaning.ipynb
@@ -26,7 +27,7 @@ College_Academic_Risk_Prediction/
 │ └── risk_classifier.pkl
 ├── README.md
 └── requirements.txt
-
+```
 ## Dataset Description
 The dataset consists of anonymized academic information of college students, including attendance percentage, internal assessment marks, daily self-study hours, backlog count, and final academic score. Additional engineered features such as performance index and consistency score were created to better capture academic behavior.
 
@@ -64,3 +65,4 @@ Future enhancements include SHAP-based explainability, database integration, aut
 Mansi Rajput  
 
 Machine Learning and Data Science Enthusiast
+
