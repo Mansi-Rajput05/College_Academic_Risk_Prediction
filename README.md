@@ -11,26 +11,21 @@ The project follows a structured machine learning workflow that includes data cl
 
 ## Project Structure
 College_Academic_Risk_Prediction/
-│
 ├── notebooks/
 │ ├── 01_Data_Loading_and_Cleaning.ipynb
 │ ├── 02_EDA_College_Academic_Risk.ipynb
 │ ├── 03_Modeling_and_Tuning.ipynb
 │ └── 04_Explainability_and_Results.ipynb
-│
 ├── app/
 │ └── app.py
-│
 ├── data/
 │ └── processed/
 │ └── student_featured.csv
-│
 ├── models/
 │ ├── final_score_model.pkl
 │ └── risk_classifier.pkl
-│
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 
 ## Dataset Description
 The dataset consists of anonymized academic information of college students, including attendance percentage, internal assessment marks, daily self-study hours, backlog count, and final academic score. Additional engineered features such as performance index and consistency score were created to better capture academic behavior.
@@ -67,4 +62,5 @@ Future enhancements include SHAP-based explainability, database integration, aut
 
 ## Author
 Mansi Rajput  
+
 Machine Learning and Data Science Enthusiast
